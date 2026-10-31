@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BookQuest — Privacy Policy · ANA Finance</title>
+<meta name="description" content="BookQuest has no account, no ads and no analytics. Your books and progress stay on your iPhone. Optional features that use the network are described on this page." />
+<style>
+/* Page autonome : aucune police, aucun script, aucune requête vers un tiers. Couleurs du site anafinance.ae. */
+:root{color-scheme:dark;--green:#5BB974;--char:#0B0D0C;--card:#161B18;--off:#ECEFEC;--mut:#8A938C;--line:rgba(236,239,236,.10)}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--char);color:var(--off);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:56px 22px 72px}
+nav{font-size:15px;color:var(--mut);margin-bottom:36px;display:flex;gap:20px;flex-wrap:wrap}
+a{color:var(--green)}
+nav a{text-decoration:none}
+nav a:hover,a:hover{text-decoration:underline}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(30px,5vw,42px);line-height:1.15;margin:0 0 6px}
+h2{font-size:20px;margin:36px 0 8px}
+.mut{color:var(--mut);font-size:15px}
+.summary{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--green);padding:18px 22px;margin:28px 0}
+.summary p{margin:0}
+ul{padding-left:22px;margin:8px 0}
+li{margin:4px 0}
+hr{border:0;border-top:1px solid var(--line);margin:56px 0}
+footer{margin-top:56px;font-size:14px;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="https://anafinance.ae/">ANA Finance</a></nav>
+
+<section lang="en" id="en">
+<h1>BookQuest — Privacy Policy</h1>
+<p class="mut">Effective 31 October 2026 · Published by ANA Finance, Dubai (United Arab Emirates)</p>
+
+<div class="summary"><p><strong>BookQuest has no account, no ads and no analytics, and ANA Finance receives no data from the app.</strong> Your books, questions and progress are kept on your iPhone. The app uses the network only for two optional things, described below: downloading the Gemma model, and the optional server mode, which is off by default.</p></div>
+
+<h2>What the app does</h2>
+<p>BookQuest is a free iPhone app. You import a PDF, and the app turns each chapter into an island with a multiple-choice quiz. You play through a map with stars, bosses, XP, a daily streak and badges. There is nothing to buy.</p>
+
+<h2>Your PDFs and your books</h2>
+<p>You choose a PDF with the iOS file picker. The app reads its text on your iPhone and keeps that text, the chapters it detects, the questions and your progress in the app's own storage on the device. It does not keep a copy of the PDF file itself. ANA Finance has no access to any of this. You can delete a book in the app, and deleting the app removes everything. Like any app data, it may appear in your own iOS device backup (iCloud or computer), which you control.</p>
+
+<h2>How questions are created</h2>
+<p>By default, questions are created on your iPhone, by Apple's on-device language model or, once you have downloaded it, by the Gemma model. In this default mode, the text of your book is not sent to anyone.</p>
+
+<h2>Optional: downloading Gemma</h2>
+<p>On devices that can run it, the app offers once to download the Gemma models (about 2.6 GB, plus about 165 MB for EmbeddingGemma). You can accept, refuse, or do it later from Settings, and delete the models at any time. The files come from the public Hugging Face repository (huggingface.co), pinned to a specific version and checked with a SHA-256 fingerprint before use. This download is a standard network request from your iPhone to Hugging Face: the app sends no account, identifier or book content with it, but Hugging Face, like any web server, can see your IP address and is governed by its own privacy policy. If you never download Gemma, this request never happens.</p>
+
+<h2>Optional: server mode (off by default)</h2>
+<p>In Settings you may type the https address of a server. No address is built into the app and the field is empty by default. If you type one and choose server mode, the passages of your book used to create questions are sent to that server, together with a number of questions to produce. The app stores no key or token for it. The operator of that server is responsible for what it does with these passages. If you do not enter an address, nothing is sent.</p>
+
+<h2>Stored on your iPhone</h2>
+<ul>
+<li>your books: extracted text, chapters, generated questions and progress per island;</li>
+<li>your profile: XP, daily streak, date of your last game and badges;</li>
+<li>a few settings: the question-generation mode, the optional server address, the Gemma switch, whether the Gemma offer was shown, and the book you opened last;</li>
+<li>the Gemma model files, if you downloaded them (excluded from backups).</li>
+</ul>
+<p>We cannot access any of it. Deleting the app deletes it.</p>
+
+<h2>What the app does not include</h2>
+<ul>
+<li>no account or sign-in;</li>
+<li>no ads and no in-app purchases;</li>
+<li>no analytics, no crash reporting sent by the app, no tracking SDK; the app does not request the iOS tracking permission;</li>
+<li>no access to your location, contacts, photos, camera, microphone or notifications.</li>
+</ul>
+<p>The only third-party component is Google's LiteRT-LM library (Apache-2.0), which runs the Gemma model on your iPhone.</p>
+
+<h2>Beta version and TestFlight</h2>
+<p>If you test BookQuest through TestFlight, an Apple service, TestFlight may give ANA Finance, depending on your settings and what you choose to send: install date, number of sessions and crashes; your name and email address if you were invited by email; and the feedback you send with "Send Beta Feedback" (text, optional screenshot, device model and iOS version, and your email address if you provide it). This data comes from TestFlight, not from the app, and is governed by Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>. We use it only to fix the app.</p>
+
+<h2>Children</h2>
+<p>ANA Finance collects no data through the app, including about children.</p>
+
+<h2>Your rights</h2>
+<p>The app sends us no personal data, so there is nothing to access, correct or delete on our side in the app. For data received through TestFlight (feedback, email address), write to us and we will delete it on request.</p>
+
+<h2>Changes</h2>
+<p>If the app or this policy changes, the new version will be published on this page with a new date.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:anyl@me.com">anyl@me.com</a></p>
+</section>
+
+<footer>© 2026 ANA Finance · Dubai, UAE</footer>
+</main>
+</body>
+</html>
